@@ -28,3 +28,21 @@ As operações que podem ser realizadas entre as duas pilhas (`a` e `b`) são:
 
 O algoritmo do **Push Swap** envolve calcular a melhor sequência de operações para ordenar a pilha `a` movendo elementos para a pilha `b` e vice-versa. O desafio é fazer isso com a menor quantidade de movimentos possível.
 
+push_swap/
+├── algoritmo/            # Implementação do algoritmo principal
+│   ├── algoritmo.c       # Arquivo relacionado à lógica de ordenação
+│   └── algoritmo_extras.c       # Extras do algoritmo
+├── movements/            # Funções relacionadas aos movimentos das pilhas
+│   ├── movements.c       # Implementação das operações nas pilhas (sa, sb, pa, etc.)
+│   └── movements_extras.c       # Cabeçalhos relacionados aos movimentos
+├── includes/             # Arquivos de cabeçalho principais
+│└── push_swap.h       # Cabeçalho principal com declarações de funções e estruturas
+│   ├──push_swap.h     # Cabeçalho principal com declarações de funções e estruturas
+│   └── Makefile       # Arquivo para compilação
+├── extras/               # Funções auxiliares e extras
+│   ├── error_handle.c           # Funções auxiliares (ex.: parsing, validações)
+│   ├── stack_manipulation.c     #stack related functions
+│   ├── split.c             #split function
+│   └── extras.c           # Cabeçalhos para funções auxiliares
+├── push_swap.c           # Arquivo principal do programa
+└── README.md             # Documentação do projeto
